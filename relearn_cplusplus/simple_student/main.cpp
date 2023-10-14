@@ -9,5 +9,5 @@ int main() {
     studentTest.setAttributes();
     cout << studentTest.getNama() << endl;
     cout << studentTest.getNim() << endl;
-    cout << "Test";
+    cout << "halo " << studentTest.getNama() << "dengan NIM " << studentTest.getNim();
 }
