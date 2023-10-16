@@ -56,8 +56,8 @@ int main()
                 break;
             case 'e':
             case 'E':
-                return 0;
+                break;
         }
         cout << "Hasil yang didapatkan adalah : " << result << endl;
-    } while (arithmeticOperation != 'E' || arithmeticOperation != 'e');
+    } while (arithmeticOperation != 'E' && arithmeticOperation != 'e');
 }
